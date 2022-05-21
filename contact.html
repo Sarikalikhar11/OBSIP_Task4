@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebar-go">
+            <nav class="">
+                <ul class="">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">About Me</a></li>
+                    <li><a href="/project.html">Projects</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+             <div class="hamburger">
+                <img class="ham" src="./assets/ham.png" alt=""  width="23px" height=""/>
+                <img class="cross" src="./assets/cross.png" alt="" width="23px" height=""/>
+            </div>
+            <div class="contactForm">
+                <h1>Contact me for Work</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="username">
+                       
+                    </div>
+                    <div class="mb-3">
+                        <label for="userEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="useremail">
+                        <div id="email" class="form-text">We'll never share your email & phone with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="userPhone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="userphone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient">
+                        <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <div class="buttons">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
